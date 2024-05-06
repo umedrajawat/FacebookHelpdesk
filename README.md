@@ -11,9 +11,10 @@ To set up Facebook integration, follow these steps:
 - Configure Login URL and Webhook: In your Facebook project settings, configure the login URL and webhook.
 - Note: Facebook mandates HTTPS URLs for login and webhook configurations. To work locally, set up Ngrok to expose localhost ports as HTTPS URLs.
 - Flows
-The application follows these essential flows:
 
-## User Management:
+###The application follows these essential flows:
+
+### User Management:
 - New users can be created at the /createUser page.
 Existing users can log in at the /login page and subsequently connect to Facebook.
 - Message Handling:
