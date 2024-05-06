@@ -15,11 +15,11 @@ To set up Facebook integration, follow these steps:
 ###The application follows these essential flows:
 
 ### User Management:
-- New users can be created at the /createUser page.
+- New users can be created at the /signup page.
 Existing users can log in at the /login page and subsequently connect to Facebook.
 - Message Handling:
-Client messages sent on Facebook are received via webhooks in the backend.
-- These messages are seamlessly transferred to the UI in real-time using websockets.
+Client messages sent on Facebook are received via webhooks in the backend at /webhook endpoint.
+- These messages are seamlessly transferred to the UI in real-time using websockets ws://${url}/ws.
 - Upon opening a chat in the UI, a websocket connection is established to facilitate message reception.
 - Data Storage
 MongoDB serves as the primary database for storing relevant application data.
