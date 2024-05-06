@@ -4,6 +4,10 @@ FacebookHelDesk is a web application designed for efficiently managing Facebook 
 ## Purpose
 The primary purpose of this project is to streamline the management of help desk operations for Facebook pages. When a user sends a message to the page, it should seamlessly reflect in the help desk interface, enabling prompt responses and efficient user interaction. The application ensures that messages sent by clients are visible, and any replies from the help desk are promptly reflected in Facebook Messenger and vice versa.
 
+## Techstack
+ - Golang Gin for backend
+ - React.js for frontend
+
 ## Setup
 To set up Facebook integration, follow these steps:
 
