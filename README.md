@@ -26,16 +26,18 @@ MongoDB serves as the primary database for storing relevant application data.
 
 ## API endpoints
 
--- /auth/login
+-- /auth/login - to login a registered user
 
--- /webhook/
+-- /webhook/ - for receiving messages coming from facebook page by the client
 
--- /create_user/
+-- /create_user/ - to create a user
 
--- /messages/getAllMessages/
+-- /messages/getAllMessages/ - to receive all the chats associated with the page
 
--- /auth/get-user/
+-- /auth/get-user/ - to get user details
 
--- /messages/sendMessage
+-- /messages/sendMessage - to send message to the facebook messenger from the page and store the message in mongo
+
+-- /ws - to setup websocket connection from the ui and manage the connections for each user so that correct message goes to the correct          helpdesk user
 
 This README provides a concise overview of FacebookHelDesk, elucidating its purpose, setup instructions, fundamental flows, and data storage mechanisms. For more comprehensive documentation and support, kindly refer to the project's detailed documentation or reach out to the project maintainers.
