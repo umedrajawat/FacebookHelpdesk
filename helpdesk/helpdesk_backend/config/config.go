@@ -35,7 +35,7 @@ var HttpClient *http.Client
 var IOSUserAgents = []string{"webOS", "iPhone", "iPad", "iPod", "Darwin"}
 var MobileUserAgents = []string{"Android", "webOS", "iPhone", "iPad", "iPod", "BlackBerry", "Windows Phone", "IEMobile", "Opera Mini", "Mobile", "mobile", "CriOS", "FxiOS"}
 
-var ALLOWED_HOSTS = []string{"127.0.0.1", "0.0.0.0"}
+var ALLOWED_HOSTS = []string{"127.0.0.1", "0.0.0.0", "localhost:3000"}
 
 var DummyTTL = time.Duration(84600) * time.Second
 
