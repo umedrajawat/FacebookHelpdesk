@@ -13,8 +13,19 @@ To set up Facebook integration, follow these steps:
 
 - Create a Developers Account: Begin by creating a developers account on Facebook and create a new project.
 - Configure Login URL and Webhook: In your Facebook project settings, configure the login URL and webhook.
-- Note: Facebook mandates HTTPS URLs for login and webhook configurations. To work locally, set up Ngrok to expose localhost ports as HTTPS URLs.
+- Note: Facebook mandates HTTPS URLs for login and webhook configurations. To work locally, set up Ngrok to expose localhost ports for both frontend and backend as HTTPS URLs.
 - Flows
+
+To set up Frontend 
+
+- yarn or npm install to install the packages
+- yarn startb or npm run start to run the project
+- create an .env file and update the facebook project details and backend endpoints
+
+To set up Backend
+
+- go mod tidy to install the packages needed for the project
+- go run . to to run the project or port :8081
 
 ###The application follows these essential flows:
 
